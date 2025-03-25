@@ -75,7 +75,7 @@ if uploaded_file:
             {"role": "system", "content": "You are a strategic financial advisor and forecaster."},
             {"role": "user", "content": prompt}
         ],
-        model="llama3-8b-8192",
+        model="llama-3.3-70b-versatile",
     )
 
     ai_insight = response.choices[0].message.content
